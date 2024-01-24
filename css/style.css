@@ -1,0 +1,97 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section#menu{
+    display: flex;
+    max-width: 100%;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+div#imagesmenu{
+    display: flex;
+    margin-left: 4rem;
+}
+
+nav#linksm{
+    margin-right: 5rem;
+}
+
+nav#linksm a{
+    color: #ffff;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 600;
+}
+
+main#main{
+    display: flex;
+    flex-direction: column;
+}
+
+main#main figure> img{
+    max-width: 100%;
+    max-height: 1000%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+div.informaçõesmain{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    transform: translate(-80%, -45%);
+    z-index: 1;
+}
+
+div.informaçõesmain h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffff;
+}
+
+div.informaçõesmain p{
+    margin-top: 1rem;
+    margin-bottom: 0.9rem;
+    font-weight: 600;
+    color: #ffff;
+}
+
+div.informaçõesmain img{
+    width: 6.25rem;
+    height: 6.25rem;
+    margin-bottom: 1rem;
+
+}
+
+#bnt-comprar{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid #fff;
+    width: 10rem;
+    height: 3rem;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#bnt-comprar:hover{
+    transition: 0.7s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #fff;
+    width: 10rem;
+    height: 3rem;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
