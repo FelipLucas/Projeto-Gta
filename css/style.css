@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 section#menu{
@@ -34,11 +35,11 @@ main#main{
     flex-direction: column;
 }
 
-main#main figure> img{
+main#main img{
     max-width: 100%;
     max-height: 1000%;
     object-fit: cover;
-    filter: brightness(50%);
+    filter: brightness(60%);
 }
 
 div.informaçõesmain{
@@ -94,4 +95,26 @@ div.informaçõesmain img{
     color: #000;
     font-weight: 600;
     text-decoration: none;
+}
+
+section#los-santos{
+}
+
+section#los-santos img{
+    width: 100%;
+    max-height: 40rem;
+    object-fit: cover;
+}
+
+div#div-los{
+}
+
+div#div-los img{
+    width: 50px;
+    height: 50px;
+}
+
+div#div-footer img{
+    width: 12.5rem;
+    height: 12.5rem;
 }
