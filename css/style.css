@@ -261,12 +261,38 @@ div#div-footer2 h3{
     font-weight: 500;
 }
 
+.div-foot{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 0.938rem;
+    padding-right: 0.938rem;
+    height: 80px;
+    background-color: #1c1c1c;
+}
+
 .logos-games{
-    margin-left: -12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-left: -5%;
+}
+
+.logos-games2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-left: 14%;
 }
 
 .div-bnt{
-    margin-top: 15%;
+    margin-top: 5%;
+}
+
+.div-bnt2{
+    margin-top: 17%;
 }
 
 .bnt-comprar2{
