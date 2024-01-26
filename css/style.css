@@ -291,6 +291,12 @@ div#div-footer2 h3{
     margin-top: 5%;
 }
 
+.div-bnt:hover{
+    width: 100px;
+    height: 80px;
+    background-color: aqua;
+}
+
 .div-bnt2{
     margin-top: 17%;
 }
