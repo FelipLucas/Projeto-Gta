@@ -21,6 +21,8 @@ div#imagesmenu{
 
 nav#linksm{
     margin-right: 5rem;
+    display: flex;
+    gap: 15px;
 }
 
 nav#linksm a{
@@ -30,27 +32,45 @@ nav#linksm a{
     font-weight: 600;
 }
 
+nav#linksm a:hover{
+    border-bottom: 2px solid #fff;
+}
+
 main#main{
     display: flex;
     flex-direction: column;
+    position: relative;
+    min-height: calc(100ch - 80px);
 }
 
-main#main img{
+main#main::after{
+
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0,0,0, .85), rgba(0,0,0, 0.7) 35%, transparent 65%) ;
+}
+
+img#img-main{
     max-width: 100%;
-    max-height: 1000%;
+    max-height: 100%;
     object-fit: cover;
-    filter: brightness(60%);
 }
 
 div.informaçõesmain{
     position: absolute;
-    top: 80%;
-    left: 45%;
-    transform: translate(-80%, -45%);
+    max-width: 48.75rem;
+    min-height: calc(100vh - 80px);
+    padding-top: 30%;
+    top: 0%;
+    padding-left: 25%;
+    transform: translate(-30%, -20%);
     z-index: 1;
 }
 
 div.informaçõesmain h1{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5rem;
     font-weight: 600;
     color: #ffff;
@@ -70,12 +90,12 @@ div.informaçõesmain img{
 
 }
 
-#bnt-comprar{
+.bnt-comprar{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: transparent;
-    border: 1px solid #fff;
+    background-color: rgb(255, 255, 255, .1);
+    border: 0.5px solid #fff;
     width: 10rem;
     height: 3rem;
     color: #fff;
@@ -83,7 +103,7 @@ div.informaçõesmain img{
     text-decoration: none;
 }
 
-#bnt-comprar:hover{
+.bnt-comprar:hover{
     transition: 0.7s;
     display: inline-flex;
     align-items: center;
@@ -98,23 +118,182 @@ div.informaçõesmain img{
 }
 
 section#los-santos{
-}
-
-section#los-santos img{
-    width: 100%;
-    max-height: 40rem;
-    object-fit: cover;
+    max-width: 100%;
+    height: 40.5rem;
+    background: url(https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/gta-v/911bff9fca5209b94dd22bcba795eefdd4b71993.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
 }
 
 div#div-los{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-div#div-los img{
-    width: 50px;
-    height: 50px;
+div#div-los h2{
+    margin-bottom: 1.5rem;
+    margin-top: 47%;
+    margin-left: -10%;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.1;
+    font-size:'Chau Philomene One', sans-serif;
 }
 
-div#div-footer img{
-    width: 12.5rem;
-    height: 12.5rem;
+div#div-los p{
+    margin-left: -10%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 530;
+}
+
+div.imglos{
+    display: flex;
+}
+
+img.img1{
+    margin-top: 22%;
+    margin-right: 0%;
+    width: 400px;
+    height: 400px;
+}
+img.img2{
+    margin-left: 17%;
+    margin-top: 17%;
+    width: 150px;
+    height: 150px;
+}
+
+img#online{
+    width: 500px;
+    height: 500px;
+}
+
+footer{
+    max-width: 100%;
+    height: 50rem;
+    background-color: hsla(0, 0%, 0%, 0.89);
+    color: #fff;
+}
+
+footer> h2{
+    padding-top: 1rem;
+    margin-left: 3.2rem;
+    color: #fff;
+}
+
+section#section-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+div#div-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: 650px;
+    margin-right: 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+div#div-footer2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: 650px;
+    background-color: #000;
+    color: #fff;
+}
+
+.img-gta{
+    width: 170px;
+    height: 170px;
+    margin-bottom: 4rem;
+    margin-top: 10%;
+}
+
+div#div-footer h3{
+    font-family: "Chalet";
+    font-weight: 600;
+    font-size: 1.7rem;
+    letter-spacing: 0;
+    line-height: 1.1;
+}
+
+div#div-footer2 h3{
+    font-family: "Chalet";
+    font-weight: 600;
+    font-size: 1.7rem;
+    letter-spacing: 0;
+    line-height: 1.1;
+}
+
+.p-foot{
+    margin-left: -26.5%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: "Arial";
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.p-foot{
+    margin-left: -26.5%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: "Arial";
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.logos-games{
+    margin-left: -12%;
+}
+
+.div-bnt{
+    margin-top: 15%;
+}
+
+.bnt-comprar2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255, .1);
+    border: 0.5px solid #fff;
+    width: 37.5rem;
+    height: 3rem;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bnt-comprar2:hover{
+    transition: 0.7s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #fff;
+    width: 37.5rem;
+    height: 3rem;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
 }
