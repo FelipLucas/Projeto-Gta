@@ -1,5 +1,112 @@
 @charset "UTF-8";
 
 @media (max-width: 1024px){
-    
+    section#menu{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    div#imagesmenu{
+        margin-left: -3rem;
+    }
+
+    div.informaçõesmain h1{
+        font-size: 20px;
+    }
+
+    div.informaçõesmain img{
+        margin-left: 3rem;
+        max-width: 80px;
+    }
+
+    div#div-los{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    div#div-los img{
+        width: 150px;
+        height: 150px;
+    }
+
+    div#div-los h2{
+        margin-top: 10%;
+        font-size: 30px;
+    }
+    section#section-footer{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    div#div-footer{
+        width: 70%;
+        margin-bottom: 2rem;
+    }
+
+    div#div-footer2{
+        width: 70%;
+        margin-left: -3%;
+    }
 }
+
+@media (max-width: 1109px){
+    div#div-los{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    div#div-los img{
+        width: 150px;
+        height: 150px;
+    }
+
+    div#div-los h2{
+        margin-top: 10%;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 600px){
+    div.informaçõesmain img{
+        width: 50px;
+    }
+
+    div.informaçõesmain h1{
+        margin-top: -7%;
+        padding-left: 10%;
+        font-size: 20px;
+    }
+
+    div.informaçõesmain p{
+        padding-left: 10%;
+        font-size: 15px;
+    }
+
+    .bnt-comprar{
+        margin-left: 10%;
+    }
+
+    div#div-los{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    div#div-los img{
+        width: 100px;
+        height: 100px;
+    }
+
+    div#div-los h2{
+        margin-left: 7%;
+        margin-top: 10%;
+        font-size: 25px;
+    }
+
+    div#div-los p{
+        margin-left: 7%;
+        font-size: 13px;
+    }
+}
+    
