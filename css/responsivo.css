@@ -109,4 +109,43 @@
         font-size: 13px;
     }
 }
-    
+
+@media (max-width: 882px){
+    .bnt-comprar2{
+        width: 250px;
+    }
+
+    .bnt-comprar2:hover{
+        width: 250px;
+    }
+}
+
+@media (max-width: 550px){
+    div.informaçõesmain h1{
+        font-size: 17px;
+    }
+
+    div.informaçõesmain img{
+        margin-top: -10%;
+        margin-bottom: 10%;
+        margin-left: 3rem;
+        width: 50px;
+    }
+
+    div.informaçõesmain p{
+        font-size: 12px;
+    }
+
+    div.informaçõesmain a{
+        font-size: 13px;
+    }
+
+    .logos-games2{
+        gap: 5px;
+    }
+
+    div#div-footer2{
+        width: 70%;
+        margin-left: -5.5%;
+    }
+}
