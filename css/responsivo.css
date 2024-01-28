@@ -126,7 +126,7 @@
     }
 
     div.informaçõesmain img{
-        margin-top: -10%;
+        margin-top: -6%;
         margin-bottom: 10%;
         margin-left: 3rem;
         width: 50px;
@@ -144,8 +144,12 @@
         gap: 5px;
     }
 
+    div#div-footer{
+        width: 75%;
+    }
+
     div#div-footer2{
-        width: 70%;
+        width: 75%;
         margin-left: -5.5%;
     }
 }
