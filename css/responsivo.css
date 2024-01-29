@@ -68,6 +68,25 @@
     }
 }
 
+@media (max-width: 1245px){
+    section#section-footer{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    div#div-footer{
+        width: 70%;
+        margin-bottom: 2rem;
+    }
+
+    div#div-footer2{
+        width: 70%;
+        margin-left: -3%;
+    }
+}
+
 @media (max-width: 600px){
     div.informaçõesmain img{
         width: 50px;
