@@ -44,7 +44,6 @@ main#main{
 }
 
 main#main::after{
-
     content: "";
     position: absolute;
     width: 100%;
